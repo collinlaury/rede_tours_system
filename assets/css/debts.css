@@ -1,0 +1,86 @@
+body{
+    margin:20;
+    font-family:Segoe UI;
+    background:#0A2A66;
+    color:#fff;
+}
+
+/* CONTAINER */
+.container{
+    margin-left:10px;
+    padding:20px;
+}
+
+/* FORM */
+form{
+    background:rgba(255,255,255,0.1);
+    backdrop-filter:blur(15px);
+    padding:20px;
+    border-radius:20px;
+    border:1px solid rgba(255,255,255,0.2);
+    margin-bottom:30px;
+}
+
+input, select, textarea{
+    width:100%;
+    padding:12px;
+    margin:8px 0;
+    border:none;
+    border-radius:10px;
+    outline:none;
+}
+
+button{
+    background:#CFA58C;
+    border:none;
+    padding:12px 20px;
+    border-radius:10px;
+    cursor:pointer;
+    font-weight:bold;
+}
+
+button:hover{
+    transform:scale(1.05);
+}
+
+/* TABLE */
+table{
+    width:100%;
+    border-collapse:collapse;
+    background:rgba(255,255,255,0.08);
+    backdrop-filter:blur(10px);
+    border-radius:15px;
+    overflow:hidden;
+}
+
+th, td{
+    padding:12px;
+    text-align:left;
+}
+
+th{
+    background:rgba(207,165,140,0.3);
+    color:#fff;
+}
+
+tr:nth-child(even){
+    background:rgba(255,255,255,0.05);
+}
+
+/* STATUS */
+.paid{
+    color:#00ff99;
+    font-weight:bold;
+}
+
+.unpaid{
+    color:#ff6666;
+    font-weight:bold;
+}
+
+/* BUTTON LINK */
+a{
+    color:#CFA58C;
+    text-decoration:none;
+    font-weight:bold;
+}
